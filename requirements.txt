@@ -1,0 +1,27 @@
+
+# https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam_faster.py
+
+#kiểm tra version pip bằng lệnh ‘pip --V’ nếu không có version thì phải đi cài pip. Máy Mac thì thường đã có sẵn, máy Win chưa có thì phải đi cài.
+
+#Di chuyển vào thư mục face-app và chạy lệnh  ‘pip install -r requirements.txt’
+
+#Các thư viện:
+
+
+opencv-contrib-python
+
+pillow 
+imutils 
+cmake 
+dlib 
+
+face_recognition 
+
+#Đợi khoảng 5-10 phút
+
+#Sau khi chạy xong thì import thư viện cv2 bằng 2 lệnh dưới: 
+#  python3
+#  >>import cv2
+
+#Sau khi import xong thì đứng ở thư mục face-app gõ lệnh ‘python3 face.py’
+#Chúc các bạn thành công
